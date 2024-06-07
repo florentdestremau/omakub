@@ -1,1 +1,1 @@
-sudo snap install phpstorm
+sudo snap install phpstorm --classic

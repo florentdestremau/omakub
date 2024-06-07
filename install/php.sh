@@ -7,4 +7,4 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === 'e21205b207c3ff0319065
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
-curl -sS https://get.symfony.com/cli/installer | zsh
+curl -sS https://get.symfony.com/cli/installer | bash

@@ -4,3 +4,19 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 git config --global pull.rebase true
+git config --global core.excludesfiles ~/.gitignore
+
+tee ~/.gitignore <<EOT
+*.log
+.vagrant
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+~*
+.idea/
+EOT
